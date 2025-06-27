@@ -20,7 +20,7 @@ client.on('qr', qr => {
 client.initialize();
 
 client.on('message_create', async message => {
-    if ((message.body.includes('--summarize') || message.body.includes('!goya')) && !message.fromMe) {
+    if ((message.body.includes('--summarize')) && !message.fromMe) {
         const chat = await message.getChat();
         const limit = message.body.split(' ')[1];
         if (!limit) {
