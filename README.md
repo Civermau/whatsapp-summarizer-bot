@@ -1,6 +1,8 @@
 # WhatsApp Summarizer Bot
 
 I got tired of my group of friends talking a lot and end up having over a thousand messages unread, so I made this, to summarize that chats, and avoid ignoring the whole group.
+
+Thanks to @GusMSR that gifted me a dollar to pay the deepseek api (I bought two dollars, so he paid half of it)
 <div align="center">
   <img src="Cover.png">
 </div>
